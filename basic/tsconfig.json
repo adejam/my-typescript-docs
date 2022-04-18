@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", // to to put the output of compiled ts codes
+        "target": "ES2015", // helps describe the language level of our build output
+        "module": "CommonJs"
+    },
+    "include": ["src"] // tels d compiler whr 2 look for .ts files 2 compile. wil throw an error if folder dosn't exist
+}
